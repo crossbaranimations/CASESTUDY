@@ -14,12 +14,15 @@ public class CarWashService {
 	private String description;
 	@Field
 	private int cost;
-	public CarWashService(int id, String service, String description, int cost) {
+	@Field
+	private boolean status;
+	public CarWashService(int id, String service, String description, int cost, boolean status) {
 		super();
 		this.id = id;
 		this.service = service;
 		this.description = description;
 		this.cost = cost;
+		this.status = status;
 	}
 	public int getId() {
 		return id;
@@ -45,6 +48,11 @@ public class CarWashService {
 	public void setCost(int cost) {
 		this.cost = cost;
 	}
-	
+	public boolean isStatus() {
+		return status;
+	}
+	public void setStatus(boolean status) {
+		this.status = status;
+	}
 	
 }

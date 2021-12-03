@@ -4,6 +4,8 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.Field;
 
+
+//This is for managing the ALL Car Details
 @Document(collection="Cars")
 public class CarManagement {
 		@Id

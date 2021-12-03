@@ -33,7 +33,7 @@ public class AddOnsController {
 		return "AddOn is deleted with id: "+id;
 	}
 	//For Finding all the AddOns service
-	@GetMapping("/findAllAddOns/")
+	@GetMapping("/findAllAddOns")
 	public List<AddOns> getBooks(){
 		return repository.findAll();
 	}
