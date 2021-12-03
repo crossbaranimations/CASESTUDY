@@ -15,6 +15,7 @@ import com.OnDemandCarWash.model.CarWashService;
 import com.OnDemandCarWash.repository.CarWashServiceRepository;
 
 //For managing the services
+
 @RestController
 public class CarWashServiceController {
 	

@@ -17,13 +17,10 @@ public class AddOns {
 	private int cost;
 	@Field
 	private boolean status;
-	public AddOns(int id, String service, String description, int cost, boolean status) {
-		super();
-		this.id = id;
-		this.service = service;
-		this.description = description;
-		this.cost = cost;
-		this.status = status;
+	
+	
+	public AddOns() {
+	
 	}
 	public int getId() {
 		return id;

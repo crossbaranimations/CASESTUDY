@@ -14,12 +14,9 @@ public class PromoCode {
 	private String codeDesc;
 	@Field
 	private boolean status;
-	public PromoCode(int id, String code, String codeDesc, boolean status) {
-		super();
-		this.id = id;
-		this.code = code;
-		this.codeDesc = codeDesc;
-		this.status = status;
+	
+	public PromoCode() {
+
 	}
 	public int getId() {
 		return id;

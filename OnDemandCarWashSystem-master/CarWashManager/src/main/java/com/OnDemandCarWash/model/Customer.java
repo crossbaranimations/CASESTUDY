@@ -20,16 +20,9 @@ public class Customer {
 	private String email;
 	@Field 
 	private boolean active;
-	public Customer(int id, String firstName, String secondName, long contactNo, String address, String email,
-			boolean active) {
-		super();
-		this.id = id;
-		this.firstName = firstName;
-		this.secondName = secondName;
-		this.contactNo = contactNo;
-		this.address = address;
-		this.email = email;
-		this.active = active;
+	
+	public Customer() {
+		
 	}
 	public int getId() {
 		return id;

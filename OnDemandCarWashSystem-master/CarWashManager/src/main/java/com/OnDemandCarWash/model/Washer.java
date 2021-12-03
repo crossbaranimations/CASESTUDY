@@ -19,14 +19,8 @@ public class Washer {
 	@Field
 	private int washes;
 	
-	public Washer(int id, String washerName, String region, int salary, boolean status, int washes) {
-		super();
-		this.id = id;
-		this.washerName = washerName;
-		this.region = region;
-		this.salary = salary;
-		this.status = status;
-		this.washes = washes;
+	public Washer() {
+
 	}
 	public int getId() {
 		return id;
